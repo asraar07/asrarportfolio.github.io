@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+.sidebar{
+    /* background-color: red; */
+    
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100%;
+    background-color: rgb(52, 51, 51);
+    transition: transform 0.3s ease-in;
+
+    
+}
+.main{
+    /* background-color: yellow; */
+    margin-left: 274px;
+    width:90vw;
+
+
+    
+   
+}
+.container{
+    display: flex;
+} 
+.sidebar nav{
+    padding:20px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+    color: white;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+.sidebar nav li a:hover{
+    color: yellow;
+}
+.infocontainer{
+    /* background-color: greenyellow; */
+    height:30vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+.hello{
+     font-size: 75px;
+    
+}
+.name{
+font-size: 70px;
+font-weight: bold;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  
+}
+.about{
+    font-size: 27px;
+    font-family: cursive;
+}
+.moreabout{
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+.buttons button{
+ padding: 9px 20px;
+ border-radius: 22px;
+ color: black;
+ background-color: dodgerblue;
+ font-weight: bold;
+ font-size: 21px;
+ margin: 0 3 px;
+ margin-top: 50px;
+ cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    line-height: normal;
+    
+}
+.devpic img{
+    height:45vh;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-radius: 500px;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-image {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    /* This will set the opacity of the background image to 50% */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+
+/* contactForm */
+
+
+.contactform{
+    font-family: cursive;
+    text-align: center;
+    
+}
+.contactform h1{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: black;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+}
+#clientemail{
+    width: 40%;
+        font-size: large;
+        padding: 5px;
+        margin-left: 45px;
+
+}
+#clientphone{
+    width: 40%;
+    font-size: large;
+    padding: 5px;
+    margin-left: 60px;
+    
+    
+}
+.btn{
+    padding: 9px 20px;
+        border-radius: 22px;
+        color: black;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 0 3 px;
+        margin-top: 20px;
+        cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+}
+
+
+#clientname {
+    width: 40%;
+    font-size: large;
+    padding: 5px;
+    margin-left: 60px;
+
+
+}
+.intro{
+    height: 30vh;
+        width: 80vw;
+        margin: 10px auto;
+        
+}
+.intro h2{
+font-family: 'Edu NSW ACT Foundation', cursive;
+margin: 15px;
+}
+.intro p{
+    margin: 15px;
+
+}
+/* Styles for skill level bars */
+.skillcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.skill {
+    height: 10px;
+    /* set the height of the skill level bars */
+    width: 200px;
+    
+
+    /* set the width of the skill level bars */
+    background-color: #ddd;
+    /* set the background color of the skill level bars */
+    margin-top: 5px;
+    /* add some margin to separate the skill level bars */
+}
+
+/* Styles for different skill level values */
+.sfive {
+    width: 150px;
+    /* set the width of the bar for skill level "5" */
+    background-color: yellow;
+    /* set the background color of the bar for skill level "5" */
+}
+
+.fifty {
+    width: 100px;
+    /* set the width of the bar for skill level "50" */
+    background-color: #2196F3;
+    /* set the background color of the bar for skill level "50" */
+}
+
+.tfive {
+    width: 50px;
+    /* set the width of the bar for skill level "75" */
+    background-color: red;
+    /* set the background color of the bar for skill level "75" */
+}
+
+.hundred {
+    width: 200px;
+    /* set the width of the bar for skill level "100" */
+    background-color: green;
+    /* set the background color of the bar for skill level "100" */
+}
+
+/* Additional styles for skill item text */
+.skillitem {
+    margin-top: 10px;
+    /* add some margin to separate the skill items */
+    font-weight: bold;
+    /* make the skill item text bold */
+}
+.hamburger{
+    position: absolute;
+    cursor:pointer;
+    top:10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 160px;
+    color: red;
+}
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+@media (max-width: 865px) {
+/* .sidebar{
+    transform: translate(-443px,0);
+    position: absolute;
+} */
+.devpic img{
+    display: none;
+}
+.main{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.intro{
+    padding-right: 30px;
+    
+}
+    
+}
+.main{
+    
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+    margin-top: -90px;
+    padding: 20px;
+    
+    
+    border: 1px solid black;
+    
+    /* set the background color */
+}
+.project h1{
+    color: black;
+    
+}
+
+
+
+.ecommerce,
+.whatsApp,
+.dance,
+.wordpress,
+.covid {
+
+    /* set the background color */
+    padding-top: 20px;
+    border-radius: 10px;
+    
+}
+@media only screen and (max-width: 465px) {
+    .project {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .project>* {
+        margin: 5px;
+    }
+
+    .ecommerce,
+    .whatsApp,
+    .dance,
+    .wordpress,
+    .covid {
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
